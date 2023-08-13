@@ -1,3 +1,8 @@
 let username = 'Kwame'
 let age = 9
-console.log(username, age)
+
+let a = 20
+let b = 30
+let c = '30'
+
+console.log(a * c * b)
