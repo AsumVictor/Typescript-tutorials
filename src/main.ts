@@ -30,3 +30,12 @@ Because isDcotor can have either a number or a boolean
 */
 
 console.log(username, age, isActive, car, isDoctor); // user 90 true false true
+
+// Declaring and Assign Data
+// let variable : data type = value // to declare and assign 
+
+let password: string = '3okpfiwklem;d3224'
+let amount: number = 50000000000
+
+// Another data type is RegExp which is regular expression
+let regularExpression: RegExp = /a\*/
