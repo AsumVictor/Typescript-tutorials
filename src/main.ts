@@ -32,10 +32,17 @@ Because isDcotor can have either a number or a boolean
 console.log(username, age, isActive, car, isDoctor); // user 90 true false true
 
 // Declaring and Assign Data
-// let variable : data type = value // to declare and assign 
+// let variable : data type = value // to declare and assign
 
-let password: string = '3okpfiwklem;d3224'
-let amount: number = 50000000000
+let password: string = "3okpfiwklem;d3224";
+let amount: number = 50000000000;
 
 // Another data type is RegExp which is regular expression
-let regularExpression: RegExp = /a\*/
+let regularExpression: RegExp = /a\*/;
+
+// Params in a function
+const has = (a: number) => {
+  return [a % 10];
+};
+
+//  Objects, Arrays, Tuples & Enums
